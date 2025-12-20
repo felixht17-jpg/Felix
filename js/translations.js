@@ -1,6 +1,6 @@
 const translations = {
   ja: {
-    page_title: "Felix Group - 総合接続ソリューション",
+    page_title: "FLAT WORLD - 総合接続ソリューション",
 
     /* ===== NAV ===== */
     nav_home: "ホーム",
@@ -220,7 +220,7 @@ pricing_tab_device: "Thiết bị",
     hero_end_btn: "Xem ngay",
 
     footer_text: "Flat World – Nền tảng Internet & Dịch vụ",
-    legal_page_title: "Felix Group - Giải pháp kết nối toàn diện",
+    legal_page_title: "Flat World - Giải pháp kết nối toàn diện",
     legal_title: "Điều khoản & Thông tin thương mại",
     legal_subtitle: "Thông tin pháp lý và điều khoản giao dịch theo Luật Thương mại Nhật Bản",
     legal_h3_company: "📌 Thông tin doanh nghiệp",
@@ -263,7 +263,7 @@ pricing_tab_device: "Thiết bị",
     footer_legal_copy: "© 2024 FLAT World Co., Ltd. All rights reserved.",
   },
   en: {
-  page_title: "Felix Group - Comprehensive Connectivity Solutions",
+  page_title: "FLAT WORLD - Comprehensive Connectivity Solutions",
 
   /* ===== NAV ===== */
   nav_home: "Home",
@@ -356,7 +356,7 @@ pricing_tab_device: "Devices",
 
   /* ===== FOOTER ===== */
   footer_text: "Flat World – Internet & Service Platform",
-  legal_page_title: "Felix Group - Comprehensive Connection Solutions",
+  legal_page_title: "Flat World - Comprehensive Connection Solutions",
         legal_title: "Terms & Commercial Information",
         legal_subtitle: "Legal information and transaction terms based on Japanese Commercial Law",
         legal_h3_company: "📌 Company Information",
