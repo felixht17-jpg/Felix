@@ -1,0 +1,84 @@
+.legal-section {
+  padding: 90px 0;
+  background: linear-gradient(180deg, #f7faf9, #ffffff);
+}
+
+.legal-title {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 800;
+  color: #0b3d2e;
+  margin-bottom: 10px;
+}
+
+.legal-subtitle {
+  text-align: center;
+  color: #64748b;
+  margin-bottom: 50px;
+}
+
+.legal-card {
+  max-width: 960px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 20px;
+  padding: 48px;
+  box-shadow: 0 20px 50px rgba(0,0,0,.08);
+}
+
+.legal-block + .legal-block {
+  margin-top: 36px;
+  padding-top: 28px;
+  border-top: 1px dashed #e5e7eb;
+}
+
+.legal-block h3 {
+  font-size: 20px;
+  color: #15803d;
+  margin-bottom: 12px;
+}
+
+.legal-block p,
+.legal-block li {
+  color: #334155;
+  line-height: 1.75;
+}
+
+.legal-block ul {
+  padding-left: 18px;
+}
+
+.legal-block a {
+  color: #16a34a;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.legal-block a:hover {
+  text-decoration: underline;
+}
+
+.legal-contact {
+  background: #f0fdf4;
+  padding: 24px;
+  border-radius: 14px;
+}
+
+@media (max-width: 768px) {
+  .legal-card {
+    padding: 28px;
+  }
+
+  .legal-title {
+    font-size: 26px;
+  }
+}
+/* Tăng click area cho mobile */
+.navbar-toggler {
+  padding: 10px;
+}
+
+/* Tránh che header */
+.legal-section {
+  padding-top: 120px;
+}

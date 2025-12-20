@@ -1,0 +1,756 @@
+/* RESET */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  color: #111827;
+  background: #fff;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* HERO */
+.hero {
+  padding: 96px 0 80px;
+}
+.hero h1 {
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 20px;
+}
+.hero .red { color: #ff3b3b; }
+.hero .blue { color: #3f5cff; }
+
+.hero p {
+  max-width: 560px;
+  color: #6b7280;
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+.btn-primary {
+  background: #ff3b3b;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-weight: 600;
+  display: inline-block;
+}
+.btn-primary:hover {
+  background: #e53232;
+}
+
+/* FOOTER */
+.footer {
+  border-top: 1px solid #e5e7eb;
+  padding: 64px 0 24px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr repeat(4, 1fr);
+  gap: 40px;
+}
+.footer-logo {
+  height: 36px;
+  margin-bottom: 16px;
+}
+
+/* EMAIL */
+.footer-subscribe {
+  display: flex;
+  max-width: 300px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.footer-subscribe input {
+  flex: 1;
+  border: none;
+  padding: 12px;
+  outline: none;
+}
+.footer-subscribe button {
+  background: #ff3b3b;
+  border: none;
+  color: #fff;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+/* LINKS */
+.footer h5 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer li {
+  margin-bottom: 10px;
+}
+.footer a {
+  font-size: 14px;
+  color: #6b7280;
+}
+.footer a:hover {
+  color: #ff3b3b;
+}
+
+/* BOTTOM */
+.footer-bottom {
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: #9ca3af;
+}
+.footer-social {
+  display: flex;
+  gap: 12px;
+}
+.footer-social a {
+  width: 36px;
+  height: 36px;
+  background: #ff3b3b;
+  color: #fff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 14px;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .hero h1 { font-size: 30px; }
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+/* ===== FORCE RESET FOOTER ===== */
+footer,
+.footer {
+  background: #ffffff !important;
+  color: #111827 !important;
+}
+
+/* GRID */
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr repeat(4, 1fr);
+  gap: 48px;
+}
+
+/* LOGO */
+.footer-logo {
+  height: 36px;
+  margin-bottom: 16px;
+}
+
+/* EMAIL BOX */
+.footer-subscribe {
+  display: flex;
+  max-width: 320px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.footer-subscribe input {
+  flex: 1;
+  padding: 12px 14px;
+  border: none;
+  outline: none;
+}
+.footer-subscribe button {
+  background: #ff3b3b;
+  color: #fff;
+  border: none;
+  padding: 0 18px;
+  cursor: pointer;
+}
+
+/* TITLES */
+.footer h5 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  color: #111827;
+}
+
+/* LINKS */
+.footer a {
+  font-size: 14px;
+  color: #6b7280;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #ff3b3b;
+}
+
+/* LIST */
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer li {
+  margin-bottom: 10px;
+}
+
+/* DIVIDER */
+.footer-bottom {
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+/* SOCIAL */
+.footer-social {
+  display: flex;
+  gap: 12px;
+}
+.footer-social a {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #ff3b3b;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-size: 14px;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+.btn-cta {
+  display: inline-block;
+  background: linear-gradient(135deg, #1e8e5a, #0f5132);
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(15, 81, 50, 0.25);
+  transition: all 0.25s ease;
+}
+
+.btn-cta:hover {
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(15, 81, 50, 0.35);
+}
+/* ======================
+   COLOR SYSTEM – FELIX
+====================== */
+:root {
+  --felix-dark: #0f5132;   /* xanh đậm */
+  --felix-green: #2fbf71; /* xanh lá */
+  --felix-soft: #eaf7f0;  /* nền nhạt */
+  --text-dark: #1f2937;
+  --text-muted: #6b7280;
+}
+
+/* ======================
+   HERO TITLE
+====================== */
+.hero-title {
+  font-size: clamp(32px, 4vw, 54px);
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 20px;
+  color: var(--text-dark);
+}
+
+/* chữ xanh đậm */
+.text-primary {
+  color: var(--felix-dark);
+}
+
+/* chữ xanh lá nổi bật */
+.text-accent {
+  color: var(--felix-green);
+  position: relative;
+}
+
+/* gạch nhấn premium */
+.text-accent::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 100%;
+  height: 8px;
+  background: rgba(47, 191, 113, 0.25);
+  border-radius: 6px;
+}
+
+/* ======================
+   DESCRIPTION
+====================== */
+.hero-desc {
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--text-muted);
+  max-width: 560px;
+}
+
+/* brand name */
+.brand-name {
+  color: var(--felix-dark);
+  font-weight: 700;
+}
+.footer-subscribe {
+  display: flex;
+  max-width: 320px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 6px 20px rgba(15, 81, 50, 0.15);
+}
+
+/* INPUT */
+.footer-subscribe input {
+  flex: 1;
+  border: none;
+  padding: 12px 16px;
+  font-size: 14px;
+  outline: none;
+  color: #0f5132;
+}
+
+.footer-subscribe input::placeholder {
+  color: #94a3a0;
+}
+
+/* BUTTON */
+.footer-subscribe button {
+  background: linear-gradient(135deg, #0f5132, #2fbf71);
+  color: #ffffff;
+  border: none;
+  padding: 0 18px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* HOVER */
+.footer-subscribe button:hover {
+  background: linear-gradient(135deg, #2fbf71, #0f5132);
+}
+.clean-style .chat-item {
+  width: auto;
+  height: auto;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  margin: 10px 0;
+}
+
+.clean-style .chat-item i {
+  font-size: 42px; /* ICON TO */
+  line-height: 1;
+  transition: transform .2s ease;
+}
+
+.clean-style .chat-item:hover i {
+  transform: scale(1.12);
+}
+.clean-style .chat-item {
+  width: auto;
+  height: auto;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  margin: 10px 0;
+}
+
+.clean-style .chat-item i {
+  font-size: 42px; /* ICON TO */
+  line-height: 1;
+  transition: transform .2s ease;
+}
+
+.clean-style .chat-item:hover i {
+  transform: scale(1.12);
+}
+.clean-style .chat-item.messenger i {
+  background: linear-gradient(
+    135deg,
+    #00B2FF,
+    #006AFF,
+    #A033FF,
+    #FF5CA8
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.clean-style .chat-item.line i {
+  color: #00C300;
+}
+.clean-style .chat-item.whatsapp i {
+  color: #25D366;
+}
+.chat-float.clean-style {
+  position: fixed;
+  right: 18px;
+  bottom: 90px;              /* né nút back-to-top / footer */
+  z-index: 9999;
+}
+
+.chat-float.clean-style .chat-options {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;                 /* khoảng cách giữa icon */
+  align-items: center;
+}
+.chat-float.clean-style .chat-toggle {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: #0b3d2e;       /* xanh đậm theo brand */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  cursor: pointer;
+  margin-bottom: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.25);
+}
+.clean-style .chat-item {
+  background: transparent;
+  box-shadow: none;
+}
+
+.clean-style .chat-item i {
+  font-size: 42px;
+  line-height: 1;
+}
+@media (max-width: 768px) {
+  .chat-float.clean-style {
+    right: 12px;
+    bottom: 70px;
+  }
+
+  .clean-style .chat-item i {
+    font-size: 36px;
+  }
+}
+.chat-float {
+  position: fixed;
+  right: 22px;
+  bottom: 24px;
+  z-index: 9999;
+  transition: transform .4s ease, opacity .4s ease;
+}
+
+/* Ẩn khi scroll xuống */
+.chat-float.hide {
+  opacity: 0;
+  transform: translateY(80px);
+  pointer-events: none;
+}
+
+/* Toggle */
+.chat-toggle {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #0f172a;
+  color: #fff;
+  font-size: 26px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+
+/* OPTIONS */
+.chat-options {
+  position: absolute;
+  bottom: 70px;
+  right: 6px;
+}
+
+.chat-item {
+  position: absolute;
+  font-size: 34px;
+  opacity: 0;
+  transform: scale(.4);
+  transition: .45s cubic-bezier(.25,.8,.25,1);
+}
+
+/* ===== VÒNG CUNG ===== */
+.chat-float.active .chat-item.fb {
+  transform: translate(-70px, -10px) scale(1);
+  opacity: 1;
+}
+.chat-float.active .chat-item.line {
+  transform: translate(-50px, -70px) scale(1);
+  opacity: 1;
+}
+.chat-float.active .chat-item.wa {
+  transform: translate(0, -95px) scale(1);
+  opacity: 1;
+}
+
+/* MÀU LOGO GỐC */
+.chat-item.fb { color: #0084ff; }
+.chat-item.line { color: #00c300; }
+.chat-item.wa { color: #25D366; }
+
+/* TOOLTIP */
+.chat-item::after {
+  content: attr(data-tip);
+  position: absolute;
+  right: 42px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #111;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: .25s;
+}
+
+.chat-item:hover::after {
+  opacity: 1;
+}
+/* ===== CHAT FLOAT WRAPPER ===== */
+.chat-float {
+  position: fixed;
+  right: 20px;
+  bottom: 24px;
+  z-index: 9999;
+  transition: transform .35s ease, opacity .35s ease;
+}
+
+/* Ẩn khi scroll */
+.chat-float.hide {
+  opacity: 0;
+  transform: translateY(80px);
+  pointer-events: none;
+}
+
+/* ===== TOGGLE ===== */
+.chat-toggle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #0f172a;
+  color: #fff;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 12px 30px rgba(0,0,0,.3);
+}
+
+/* ===== OPTIONS WRAP ===== */
+.chat-options {
+  position: absolute;
+  right: 8px;
+  bottom: 72px;
+}
+
+/* ===== ICON ===== */
+.chat-item {
+  position: absolute;
+  font-size: 38px;           /* 👈 TO HƠN */
+  opacity: 0;
+  transform: scale(.5);
+  transition: 
+    transform .45s cubic-bezier(.4,1.3,.5,1),
+    opacity .3s ease;
+}
+
+/* ===== VÒNG CUNG ĐẸP ===== */
+.chat-float.active .chat-item.fb {
+  transform: translate(-72px, -8px) scale(1);
+  opacity: 1;
+}
+
+.chat-float.active .chat-item.line {
+  transform: translate(-52px, -62px) scale(1);
+  opacity: 1;
+}
+
+.chat-float.active .chat-item.wa {
+  transform: translate(-6px, -96px) scale(1);
+  opacity: 1;
+}
+
+/* ===== MÀU LOGO GỐC ===== */
+.chat-item.fb { color: #0084ff; }      /* Messenger */
+.chat-item.line { color: #00c300; }    /* LINE */
+.chat-item.wa { color: #25D366; }      /* WhatsApp */
+
+/* ===== TOOLTIP ===== */
+.chat-item::after {
+  content: attr(data-tip);
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #111;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 9px;
+  border-radius: 6px;
+  opacity: 0;
+  white-space: nowrap;
+  transition: .25s;
+  pointer-events: none;
+}
+
+.chat-item:hover::after {
+  opacity: 1;
+}
+/* ===== ICON CIRCLE ===== */
+.chat-item {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #fff;               /* nền trắng cho sạch */
+  box-shadow: 0 8px 20px rgba(0,0,0,.18);
+
+  transition: transform .2s ease;
+}
+
+/* ICON SIZE */
+.chat-item i {
+  font-size: 30px;                 /* 👈 TO LÊN */
+  line-height: 1;
+}
+
+/* HOVER */
+.chat-item:hover {
+  transform: scale(1.1);
+}
+
+/* ===== BRAND COLORS ===== */
+.chat-item.fb i {
+  background: linear-gradient(135deg,#00B2FF,#006AFF,#A033FF,#FF5CA8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.chat-item.line i {
+  color: #00C300;
+}
+
+.chat-item.wa i {
+  color: #25D366;
+}
+.chat-float {
+  position: fixed;
+  right: 22px;
+  bottom: 28px;
+  z-index: 9999;
+}
+.chat-toggle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #0d563e;
+  color: #fff;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3);
+}
+.chat-options {
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%,50%);
+  pointer-events: none;
+}
+.chat-item {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,.18);
+
+  opacity: 0;
+  transform: scale(.4);
+  transition: 
+    transform .4s cubic-bezier(.4,1.3,.4,1),
+    opacity .25s ease;
+}
+.chat-float.active .chat-item {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Messenger – trái dưới */
+.chat-float.active .chat-item.fb {
+  transform: translate(-80px, -10px) scale(1);
+}
+
+/* LINE – trái trên */
+.chat-float.active .chat-item.line {
+  transform: translate(-55px, -70px) scale(1);
+}
+
+/* WhatsApp – trên */
+.chat-float.active .chat-item.wa {
+  transform: translate(0, -95px) scale(1);
+}
+.chat-item i {
+  font-size: 30px;
+}
+
+.chat-item.fb i {
+  background: linear-gradient(135deg,#00B2FF,#006AFF,#A033FF,#FF5CA8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.chat-item.line i { color: #00C300; }
+.chat-item.wa i { color: #25D366; }

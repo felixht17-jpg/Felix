@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate-key="page_title">Felix Group - 総合接続ソリューション</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lienhe.css">
+    <link rel="stylesheet" href="css/luat.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="120">
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 shadow-sm navbar-smart">
+        <div class="container">
+            <a class="navbar-brand brand-felix" href="#home">
+                <img src="images/Chưa có tên (800 x 800 px).png" alt="Flat World Logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-2">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" data-translate-key="nav_home">ホーム</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gioithieu" data-translate-key="nav_about">会社紹介</a>
+                    </li>
+
+                    <li class="nav-item has-submenu">
+                        <button class="nav-link submenu-toggle" type="button" data-translate-key="nav_info">
+                            会社情報
+                            <span class="arrow">▾</span>
+                        </button>
+
+                        <ul class="submenu">
+                            <li>
+                                <a class="nav-link" href="#mission" data-translate-key="nav_mission">
+                                    ミッション
+                                </a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#vision" data-translate-key="nav_vision">
+                                    ビジョン
+                                </a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#values" data-translate-key="nav_values">
+                                    コアバリュー
+                                </a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#uudiem" data-translate-key="nav_advantage">
+                                    強み
+                                </a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#thanhphan" data-translate-key="nav_platform">
+                                    基盤
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#goicuoc" data-translate-key="nav_package">料金プラン</a>
+                    </li> -->
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#doitac" data-translate-key="nav_partner">パートナー</a>
+                    </li> -->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="legal.html" data-translate-key="nav_legal">
+                            商法
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero" data-translate-key="nav_contact">お問い合わせ</a>
+                    </li>
+                </ul>
+                <div class="lang-dropdown">
+                    <button class="lang-btn" id="langToggle">
+                        <span class="flag-circle">🇯🇵</span>
+                        <span class="lang-text">JP</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+
+                    <div class="lang-menu" id="langMenu">
+                        <div class="lang-item" onclick="setLang('en')">🇬🇧 English</div>
+                        <div class="lang-item" onclick="setLang('ja')">🇯🇵 日本語</div>
+                        <div class="lang-item" onclick="setLang('vi')">🇻🇳 Tiếng Việt</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================= HERO ================= -->
+    <section id="home" class="hero-banner">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-6 hero-text-block">
+                    <h1 class="hero-title">
+                        <span class="t-red" data-translate-key="hero_title_1">グローバルに接続</span><br>
+                        <span class="t-blue" data-translate-key="hero_title_2">いつでも、どこでも</span>
+                    </h1>
+
+                    <p class="hero-subtext" data-translate-key="hero_desc">
+                        Flat Worldは、外国人の方が日本で生活・就労するために必要な
+                        インターネットおよび通信ニーズを支援する
+                        信頼性の高いサービスと機器を提供しています。
+                    </p>
+
+                    <a href="#gioithieu" class="btn btn-hero-primary" data-translate-key="hero_btn">
+                        詳しく見る
+                    </a>
+                </div>
+
+                <div class="col-lg-6 hero-image-block text-center">
+                    <img src="images/Bài đăng Instagram Sale Làm đẹp Nữ tính Thời trang Mỹ phẩm Hiện đại Hồng (1).png"
+                        class="hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= GIỚI THIỆU ================= -->
+    <section id="gioithieu" class="intro-section">
+        <div class="container intro-wrapper">
+
+            <div class="intro-text-block">
+                <div class="intro-icon"><i class="fas fa-building"></i></div>
+
+                <h2 class="intro-title-mobile" data-translate-key="about_title">会社紹介</h2>
+
+                <p class="intro-subtext" data-translate-key="about_text_1">
+                    <strong>Flat World</strong>日本で活動する多角経営企業であり、通信・インターネット・IT・商業・人材分野のソリューションを提供しています。
+                </p>
+
+                <div class="intro-divider"></div>
+
+                <p class="intro-desc" data-translate-key="about_text_2">
+                    私たちは、顧客とパートナーの価値を高めるための
+                    総合的なサービスエコシステムを構築しています。
+                </p>
+            </div>
+
+            <div class="intro-image-wrap">
+                <img src="images/Black and Gold Modern New Year Party Card (800 x 800 px).png" class="intro-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SỨ MỆNH ================= -->
+    <section id="mission" class="mission-section">
+        <div class="container">
+            <div class="mission-grid">
+
+                <div class="mission-image-wrap">
+                    <img src="images/Gemini_Generated_Image_vt8dqvt8dqvt8dqv.png" class="mission-image">
+
+                    <div class="floating-card card-top">
+                        <div class="fc-icon wifi"><i class="fas fa-wifi"></i></div>
+                        <div>
+                            <h4 data-translate-key="mission_card_1_title">インターネット接続</h4>
+                            <p data-translate-key="mission_card_1_desc">高速・安定通信</p>
+                        </div>
+                    </div>
+
+                    <div class="floating-card card-bottom">
+                        <div class="fc-icon gear"><i class="fas fa-cog"></i></div>
+                        <div>
+                            <h4 data-translate-key="mission_card_2_title">デジタルソリューション</h4>
+                            <p data-translate-key="mission_card_2_desc">最新通信技術</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mission-content">
+                    <h2 class="mission-title" data-translate-key="mission_title">• ミッション</h2>
+
+                    <p class="mission-text" data-translate-key="mission_text">
+                        Flat Worldは、テクノロジーをより使いやすく、
+                        インターネットをより身近にし、
+                        ビジネスの機会をより公平にするために存在します。
+                        私たちは、通信・インターネット・オンラインプラットフォームを通じて、
+                        世界中の顧客が柔軟かつ持続的に成長できる環境を提供します。
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ================= TẦM NHÌN ================= -->
+    <section id="vision" class="vision-section">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+                    <div class="vision-content">
+
+                        <div class="vision-title">
+                            <i class="fas fa-bullseye-arrow vision-icon"></i>
+                            <h2 data-translate-key="vision_title">ビジョン</h2>
+                        </div>
+
+                        <p class="vision-desc" data-translate-key="vision_text">
+                            Flat Worldは、テクノロジーをより使いやすく、
+                            インターネットをより身近にし、
+                            ビジネスチャンスをより公平にすることを目指しています。
+                            私たちは、通信・インターネット・オンラインプラットフォームを通じて、
+                            世界中の市場で持続的な成長を支援します。
+                        </p>
+
+                        <div class="vision-core">
+                            <div class="core-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span data-translate-key="vision_core_1">透明性</span>
+                            </div>
+                            <div class="core-item">
+                                <i class="fas fa-star"></i>
+                                <span data-translate-key="vision_core_2">品質</span>
+                            </div>
+                            <div class="core-item">
+                                <i class="fas fa-heart"></i>
+                                <span data-translate-key="vision_core_3">誠実さ</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="vision-image-wrapper">
+                        <img src="images/Black and Gold Modern New Year Party Card (800 x 800 px) (1).png"
+                            class="vision-image">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= GIÁ TRỊ CỐT LÕI ================= -->
+    <section id="values" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="fw-bold text-danger" data-translate-key="values_title">• コアバリュー</h2>
+            </div>
+
+            <div class="row text-center g-4">
+
+                <div class="col-lg-4">
+                    <div class="value-box p-4">
+                        <i class="fas fa-hand-holding-heart icon-lg-red"></i>
+                        <h5 class="fw-bold mt-3" data-translate-key="values_1_title">
+                            顧客中心
+                        </h5>
+                        <p data-translate-key="values_1_desc">
+                            顧客のニーズを最優先に考えます。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="value-box p-4">
+                        <i class="fas fa-lightbulb icon-lg-red"></i>
+                        <h5 class="fw-bold mt-3" data-translate-key="values_2_title">
+                            創造と改善
+                        </h5>
+                        <p data-translate-key="values_2_desc">
+                            サービスと技術を継続的に改善します。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="value-box p-4">
+                        <i class="fas fa-handshake icon-lg-red"></i>
+                        <h5 class="fw-bold mt-3" data-translate-key="values_3_title">
+                            信頼と透明性
+                        </h5>
+                        <p data-translate-key="values_3_desc">
+                            明確で信頼できる情報を提供します。
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= ƯU ĐIỂM ================= -->
+    <section id="uudiem" class="py-5">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-danger" data-translate-key="advantage_title">
+                    強み
+                </h2>
+            </div>
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+                    <img src="images/Black and Gold Modern New Year Party Card (800 x 800 px) (2).png"
+                        class="img-fluid rounded shadow">
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div class="d-flex mb-4 mt-3">
+                        <i class="fas fa-signal fa-2x text-danger me-3"></i>
+                        <div>
+                            <h5 class="fw-bold" data-translate-key="advantage_1_title">
+                                安定した接続
+                            </h5>
+                            <p data-translate-key="advantage_1_desc">
+                                生活と仕事の両方に適しています。
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mb-4">
+                        <i class="fas fa-cogs fa-2x text-danger me-3"></i>
+                        <div>
+                            <h5 class="fw-bold" data-translate-key="advantage_2_title">
+                                柔軟な管理
+                            </h5>
+                            <p data-translate-key="advantage_2_desc">
+                                簡単に管理・拡張できます。
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mb-4">
+                        <i class="fas fa-shield-alt fa-2x text-danger me-3"></i>
+                        <div>
+                            <h5 class="fw-bold" data-translate-key="advantage_3_title">
+                                適切なセキュリティ
+                            </h5>
+                            <p data-translate-key="advantage_3_desc">
+                                安全な利用環境を確保します。
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= NỀN TẢNG ================= -->
+    <section id="thanhphan" class="py-5 bg-light">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-danger" data-translate-key="platform_title">
+                    コアインフラ・基盤
+                </h2>
+            </div>
+
+            <div class="row text-center g-4">
+
+                <div class="col-lg-4">
+                    <div class="component-card p-4">
+                        <i class="fas fa-network-wired fa-3x text-danger mb-3"></i>
+                        <h5 data-translate-key="platform_1_title">
+                            安定した通信インフラ
+                        </h5>
+                        <p data-translate-key="platform_1_desc">
+                            高い安定性とセキュリティを重視した
+                            インターネット回線を構築し、
+                            将来の拡張に対応します。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="component-card p-4">
+                        <i class="fas fa-sim-card fa-3x text-danger mb-3"></i>
+                        <h5 data-translate-key="platform_2_title">
+                            SIM・接続デバイスソリューション
+                        </h5>
+                        <p data-translate-key="platform_2_desc">
+                            個人および法人向けに
+                            柔軟なインターネット接続を
+                            提供します。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="component-card p-4">
+                        <i class="fas fa-globe fa-3x text-danger mb-3"></i>
+                        <h5 data-translate-key="platform_3_title">
+                            インターネット管理プラットフォーム
+                        </h5>
+                        <p data-translate-key="platform_3_desc">
+                            接続管理を支援する
+                            プラットフォームを開発・運用し、
+                            将来のサービス拡張を支えます。
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- <section id="goicuoc" class="py-5 bg-light">
+        <div class="container">
+
+            <div class="text-center mb-4">
+                <h2 class="fw-bold text-success" data-translate-key="pricing_title">
+                    料金プラン & 機器
+                </h2>
+            </div>
+            <ul class="nav nav-pills justify-content-center mb-4 custom-tabs">
+                <li class="nav-item">
+                    <div class="nav-link active" data-tab="sim" data-translate-key="pricing_tab_plan">
+                        料金プラン
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <div class="nav-link" data-tab="device" data-translate-key="pricing_tab_device">
+                        機器
+                    </div>
+                </li>
+            </ul>
+
+            <div class="slider-wrapper">
+                <div class="product-track" id="product-track"></div>
+
+                <div class="slider-controls">
+                    <button class="slide-btn prev">‹</button>
+                    <button class="slide-btn next">›</button>
+                </div>
+
+                <div class="slider-indicators" id="slider-indicators"></div>
+            </div>
+
+        </div>
+</section> -->
+
+    <!-- ================= ĐỐI TÁC ================= -->
+    <!-- <section id="doitac" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="fw-bold text-danger text-center mb-4" data-translate-key="partner_title">
+                主なパートナー
+            </h2>
+
+            <div class="row gy-4 text-center">
+                <div class="col-4"><img src="images/tải xuống (1).png" class="img-fluid"></div>
+                <div class="col-4"><img src="images/tải xuống.png" class="img-fluid"></div>
+                <div class="col-4"><img src="images/tải xuống (6).jpg" class="img-fluid"></div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1 class="hero-title">
+                <span class="text-primary" data-translate-key="hero_end_title_1">
+                    グローバルに接続
+                </span>
+                <br>
+                <span class="text-accent" data-translate-key="hero_end_title_2">
+                    制限のない体験
+                </span>
+                <span class="text-primary" data-translate-key="hero_end_title_3">
+                    を提供します！
+                </span>
+            </h1>
+
+            <p class="hero-desc" data-translate-key="hero_end_desc">
+                <strong class="brand-name">Flat World</strong> は、
+                総合的な通信ソリューションを提供し、
+                日本に在住・就労する外国人が
+                簡単にインターネットへアクセスできるよう支援します。
+            </p>
+
+            <a href="#" class="btn-cta" data-translate-key="hero_end_btn">
+                今すぐ見る
+            </a>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer text-center">
+        <div class="container">
+            <img src="images/Chưa có tên (800 x 800 px).png" style="max-width:120px;">
+            <p class="mt-3" data-translate-key="footer_text">
+                Flat World – インターネット & サービスプラットフォーム
+            </p>
+            <p class="small">
+                © 2025 Flat World. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const isMobile = window.matchMedia("(max-width: 991px)").matches;
+
+    if (!isMobile) return; // ❌ Desktop không chạy JS
+
+    document.querySelectorAll(".submenu-toggle").forEach(toggle => {
+        toggle.addEventListener("click", (e) => {
+            e.preventDefault();
+            toggle.closest(".has-submenu").classList.toggle("open");
+        });
+    });
+});
+</script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const chatToggle = document.getElementById("chat-toggle");
+            const chatFloat = document.getElementById("chat-float");
+
+            if (!chatToggle || !chatFloat) return; // 👈 chống lỗi
+
+            chatToggle.addEventListener("click", () => {
+                chatFloat.classList.toggle("active");
+            });
+
+            let lastScroll = 0;
+            window.addEventListener("scroll", () => {
+                const current = window.scrollY;
+
+                if (current > lastScroll && current > 200) {
+                    chatFloat.classList.add("hide");
+                } else {
+                    chatFloat.classList.remove("hide");
+                }
+                lastScroll = current;
+            });
+        });
+
+    </script>
+   
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/translations.js"></script>
+    <script src="js/style.js"></script>
+    <script src="js/product.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/lang.js"></script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>
