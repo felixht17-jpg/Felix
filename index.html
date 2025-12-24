@@ -40,7 +40,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#gioithieu" data-translate-key="nav_about">会社紹介</a>
                     </li>
-
+                    <li>
+                        <a class="nav-link" href="#company-overview" data-translate-key="nav_company">
+                            会社情報
+                        </a>
+                    </li>
                     <li class="nav-item has-submenu">
                         <button class="nav-link submenu-toggle" type="button" data-translate-key="nav_info">
                             会社情報
@@ -70,11 +74,6 @@
                                 </a>
                             </li>
                         </ul>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="#company-overview" data-translate-key="nav_company">
-                            会社情報
-                        </a>
                     </li>
 
                     <!-- <li class="nav-item">
@@ -249,60 +248,58 @@
                     </div>
 
                     <!-- RIGHT: Business Overview -->
-<div class="col-lg-7 company-right p-4 p-md-5">
+                    <div class="col-lg-7 company-right p-4 p-md-5">
 
-    <h5 class="section-subtitle mb-4" data-translate-key="company_overview_title">
-        企業概要
-    </h5>
+                        <h5 class="section-subtitle mb-4" data-translate-key="company_overview_title">
+                            企業概要
+                        </h5>
 
-    <!-- TEXT WRAPPER (BẮT BUỘC) -->
-    <div class="company-overview-text" id="companyOverviewText">
+                        <!-- TEXT WRAPPER (BẮT BUỘC) -->
+                        <div class="company-overview-text" id="companyOverviewText">
 
-        <div class="prose-like">
-            <p data-translate-key="company_overview_p1">
-                Flat World株式会社は、日本において外国人の方々が
-                安心して生活・就労・学習できる環境を支援するため、
-                インターネットおよび通信分野における
-                各種サービスとソリューションを提供しています。
-            </p>
+                            <div class="prose-like">
+                                <p data-translate-key="company_overview_p1">
+                                    Flat World株式会社は、日本において外国人の方々が
+                                    安心して生活・就労・学習できる環境を支援するため、
+                                    インターネットおよび通信分野における
+                                    各種サービスとソリューションを提供しています。
+                                </p>
 
-            <p data-translate-key="company_overview_p2">
-                主な事業内容として、高速かつ安定した
-                インターネット接続サービスを提供し、
-                利便性と安全性を重視した通信環境の構築を行っています。
-                また、先進的な通信技術を活用した
-                柔軟で最適な通信・デジタルソリューションを
-                お客様のニーズに合わせて展開しています。
-            </p>
+                                <p data-translate-key="company_overview_p2">
+                                    主な事業内容として、高速かつ安定した
+                                    インターネット接続サービスを提供し、
+                                    利便性と安全性を重視した通信環境の構築を行っています。
+                                    また、先進的な通信技術を活用した
+                                    柔軟で最適な通信・デジタルソリューションを
+                                    お客様のニーズに合わせて展開しています。
+                                </p>
 
-            <p data-translate-key="company_overview_p3">
-                さらに、SIMカード、eSIM、WiFiルーターなどの
-                通信機器の提供に加え、
-                通信サービス管理プラットフォームの
-                企画・開発・運用を通じて、
-                利用状況の可視化と効率的な管理を支援しています。
-            </p>
+                                <p data-translate-key="company_overview_p3">
+                                    さらに、SIMカード、eSIM、WiFiルーターなどの
+                                    通信機器の提供に加え、
+                                    通信サービス管理プラットフォームの
+                                    企画・開発・運用を通じて、
+                                    利用状況の可視化と効率的な管理を支援しています。
+                                </p>
 
-            <p class="mb-0" data-translate-key="company_overview_p4">
-                これらの取り組みを通じて、
-                Flat World株式会社は、
-                日本における外国人の皆様が
-                安心してインターネットを利用できる
-                環境づくりを目指しています。
-            </p>
-        </div>
+                                <p class="mb-0" data-translate-key="company_overview_p4">
+                                    これらの取り組みを通じて、
+                                    Flat World株式会社は、
+                                    日本における外国人の皆様が
+                                    安心してインターネットを利用できる
+                                    環境づくりを目指しています。
+                                </p>
+                            </div>
 
-    </div>
+                        </div>
 
-    <!-- BUTTON (MOBILE ONLY) -->
-    <button
-        class="btn btn-link company-toggle-btn d-lg-none mt-2 px-0"
-        id="companyToggleBtn"
-        data-translate-key="company_read_more">
-        Xem thêm
-    </button>
+                        <!-- BUTTON (MOBILE ONLY) -->
+                        <button class="btn btn-link company-toggle-btn d-lg-none mt-2 px-0" id="companyToggleBtn"
+                            data-translate-key="company_read_more">
+                            Xem thêm
+                        </button>
 
-</div>
+                    </div>
 
                 </div>
             </div>
@@ -311,38 +308,38 @@
     </section>
 
 
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-    const textBox = document.getElementById("companyOverviewText");
-    const toggleBtn = document.getElementById("companyToggleBtn");
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const textBox = document.getElementById("companyOverviewText");
+            const toggleBtn = document.getElementById("companyToggleBtn");
 
-    // Nếu page khác không có section → không lỗi
-    if (!textBox || !toggleBtn) return;
+            // Nếu page khác không có section → không lỗi
+            if (!textBox || !toggleBtn) return;
 
-    toggleBtn.addEventListener("click", () => {
-        const isExpanded = textBox.classList.toggle("expanded");
+            toggleBtn.addEventListener("click", () => {
+                const isExpanded = textBox.classList.toggle("expanded");
 
-        const lang = localStorage.getItem("lang") || "ja";
+                const lang = localStorage.getItem("lang") || "ja";
 
-        if (isExpanded) {
-            toggleBtn.textContent =
-                translations?.[lang]?.company_read_less || "Thu gọn";
-        } else {
+                if (isExpanded) {
+                    toggleBtn.textContent =
+                        translations?.[lang]?.company_read_less || "Thu gọn";
+                } else {
+                    toggleBtn.textContent =
+                        translations?.[lang]?.company_read_more || "Xem thêm";
+                }
+            });
+        });
+        const textBox = document.getElementById("companyOverviewText");
+        const toggleBtn = document.getElementById("companyToggleBtn");
+
+        if (textBox && toggleBtn) {
+            textBox.classList.remove("expanded");
             toggleBtn.textContent =
                 translations?.[lang]?.company_read_more || "Xem thêm";
         }
-    });
-});
-const textBox = document.getElementById("companyOverviewText");
-const toggleBtn = document.getElementById("companyToggleBtn");
 
-if (textBox && toggleBtn) {
-    textBox.classList.remove("expanded");
-    toggleBtn.textContent =
-        translations?.[lang]?.company_read_more || "Xem thêm";
-}
-
-</script>
+    </script>
 
     <!-- ================= SỨ MỆNH ================= -->
     <section id="mission" class="mission-section">
