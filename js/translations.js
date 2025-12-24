@@ -1,7 +1,7 @@
 const translations = {
   ja: {
     page_title: "FLAT WORLD - 総合接続ソリューション",
-
+nav_company: "会社情報",
     /* ===== NAV ===== */
     nav_home: "ホーム",
     nav_about: "会社紹介",
@@ -15,7 +15,7 @@ const translations = {
     nav_partner: "パートナー",
     nav_legal: "商法",
     nav_contact: "お問い合わせ",
-
+company_value_name_sub: "（フラットワールド株式会社）",
     /* ===== HERO TOP ===== */
     hero_title_1: "グローバルに接続",
     hero_title_2: "いつでも、どこでも",
@@ -123,7 +123,7 @@ legal_page_title: "FLAT World - 総合接続ソリューション",
     legal_payment_4: "代金引換（COD）",
     legal_payment_term_1: "支払い期限: ご注文日より7日以内",
     legal_payment_term_2: "期限を過ぎた場合、注文は自動的にキャンセルされます。",
-    legal_h3_returns: "🔄 返品・交換・返金",
+    legal_h3_returns: "🔄 返品・交換・返金", 
     legal_returns_1: "製造元による技術的な欠陥がある製品に適用されます。",
     legal_returns_2: "商品受領後2日以内にご連絡ください。",
     legal_returns_3: "誤った使用または期限切れの製品には適用されません。",
@@ -132,20 +132,60 @@ legal_page_title: "FLAT World - 総合接続ソリューション",
     legal_contact_desc: "ご不明な点がございましたら、こちらまでご連絡ください:",
     footer_legal_copy: "© 2024 FLAT World Co., Ltd. All rights reserved.",
     /* ===== FOOTER ===== */
-    footer_text: "Flat World – インターネット & サービスプラットフォーム"
+    footer_text: "Flat World – インターネット & サービスプラットフォーム",
+    company_badge: "Company Profile",
+
+    company_title: "会社情報",
+    company_subtitle: "総合会社概要",
+
+    company_info_title: "会社情報",
+
+    company_label_name: "会社名",
+    company_value_name: "Flat World株式会社<br><span class='text-muted small'>(フラットワールド株式会社)</span>",
+
+    company_label_established: "設立",
+    company_value_established: "2025年12月（令和7年）",
+
+    company_label_representative: "代表者",
+    company_value_representative: "代表取締役：Niki Nana",
+
+    company_label_address: "所在地",
+    company_value_address:
+      "〒157-0071<br>東京都世田谷区千歳台3-11-3<br>小野ビル 6階",
+
+    company_label_phone: "電話番号",
+    company_value_phone: "070-4106-6501",
+
+    company_overview_title: "企業概要",
+
+    company_overview_p1:
+      "Flat World株式会社は、日本において外国人の方々が安心して生活・就労・学習できる環境を支援するため、インターネットおよび通信分野における各種サービスとソリューションを提供しています。",
+
+    company_overview_p2:
+      "主な事業内容として、高速かつ安定したインターネット接続サービスを提供し、利便性と安全性を重視した通信環境の構築を行っています。また、先進的な通信技術を活用した柔軟で最適な通信・デジタルソリューションを、お客様のニーズに合わせて展開しています。",
+
+    company_overview_p3:
+      "さらに、SIMカード、eSIM、WiFiルーターなどの通信機器の提供に加え、通信サービス管理プラットフォームの企画・開発・運用を通じて、利用状況の可視化と効率的な管理を支援しています。",
+      company_overview_p4:
+      "これらの取り組みを通じて、Flat World株式会社は、日本における外国人の皆様が安心してインターネットを利用できる環境づくりを目指しています。",
+       company_read_more: "続きを読む",
+    company_read_less: "閉じる",
+
   },
 
   /* ================= VI ================= */
   vi: {
+       company_read_more: "Xem thêm",
+    company_read_less: "Thu gọn",
     page_title: "FLAT WORLD Group - Giải pháp kết nối toàn diện",
-
+  nav_company: "Công ty",
     nav_home: "Trang chủ",
     nav_about: "Giới thiệu",
     nav_info: "Thông tin ",
     nav_mission: "Sứ mệnh",
     nav_vision: "Tầm nhìn",
     nav_values: "Giá trị cốt lõi",
-    nav_advantage: "Ưu điểm",
+    nav_advantage: "Lý do được lựa chọn",
     nav_platform: "Nền tảng",
     nav_package: "Gói cước",
     nav_partner: "Đối tác",
@@ -261,8 +301,81 @@ pricing_tab_device: "Thiết bị",
     legal_h3_contact_info: "📧 Liên hệ",
     legal_contact_desc: "Mọi thắc mắc vui lòng liên hệ:",
     footer_legal_copy: "© 2024 FLAT World Co., Ltd. All rights reserved.",
+     company_badge: "Hồ sơ doanh nghiệp",
+
+    company_title: "Thông tin doanh nghiệp",
+    company_subtitle: "Tổng quan công ty",
+
+    company_info_title: "Thông tin công ty",
+
+    company_label_name: "Tên công ty",
+    company_value_name: "Flat World株式会社<br><span class='text-muted small'>(Công ty Cổ phần Flat World)</span>",
+
+    company_label_established: "Thời điểm thành lập",
+    company_value_established: "Tháng 12 năm 2025 (năm Reiwa 7)",
+
+    company_label_representative: "Người đại diện",
+    company_value_representative: "Giám đốc đại diện: Niki Nana",
+
+    company_label_address: "Địa chỉ",
+    company_value_address:
+      "〒157-0071<br>Tầng 6, Tòa nhà Ono,<br>3-11-3 Chitosedai, Setagaya-ku, Tokyo",
+
+    company_label_phone: "Số điện thoại",
+    company_value_phone: "070-4106-6501",
+ company_value_name_sub: "(Công ty Cổ phần Flat World)",
+    company_overview_title: "Tổng quan doanh nghiệp",
+
+    company_overview_p1:
+      "Flat World株式会社 là doanh nghiệp cung cấp các dịch vụ và giải pháp trong lĩnh vực Internet và viễn thông, hướng tới người nước ngoài đang sinh sống, làm việc và học tập tại Nhật Bản.",
+
+    company_overview_p2:
+      "Các lĩnh vực kinh doanh chính bao gồm cung cấp dịch vụ kết nối Internet với môi trường Internet tốc độ cao, ổn định, hỗ trợ khách hàng sử dụng Internet một cách thuận tiện và an toàn. Bên cạnh đó, công ty cung cấp các giải pháp viễn thông và giải pháp số thông qua việc ứng dụng các công nghệ viễn thông tiên tiến, nhằm mang đến những giải pháp linh hoạt và tối ưu, phù hợp với nhu cầu đa dạng của khách hàng.",
+
+    company_overview_p3:
+      "Ngoài ra, Flat World株式会社 còn cung cấp SIM vật lý, eSIM, bộ phát WiFi và các thiết bị viễn thông khác cho khách hàng cá nhân và doanh nghiệp. Đồng thời, công ty thực hiện việc lập kế hoạch, phát triển và vận hành các nền tảng quản lý dịch vụ viễn thông, giúp khách hàng dễ dàng theo dõi và quản lý tình trạng sử dụng dịch vụ cũng như kết nối Internet.",
+
+    company_overview_p4:
+      "Thông qua các hoạt động trên, Flat World株式会社 hướng tới mục tiêu xây dựng môi trường viễn thông an toàn, ổn định và dễ tiếp cận, góp phần hỗ trợ người nước ngoài sinh sống tại Nhật Bản một cách thuận lợi và an tâm."
+  
   },
   en: {
+    company_badge: "Corporate Profile",
+
+    company_title: "Company Information",
+    company_subtitle: "Company Overview",
+
+    company_info_title: "Company Information",
+
+    company_label_name: "Company Name",
+    company_value_name: "Flat World Co., Ltd.<br><span class='text-muted small'>(Flat World Joint Stock Company)</span>",
+
+    company_label_established: "Established",
+    company_value_established: "December 2025 (Reiwa 7)",
+
+    company_label_representative: "Representative",
+    company_value_representative: "Representative Director: Niki Nana",
+
+    company_label_address: "Address",
+    company_value_address:
+      "〒157-0071<br>6th Floor, Ono Building,<br>3-11-3 Chitosedai, Setagaya-ku, Tokyo",
+
+    company_label_phone: "Phone Number",
+    company_value_phone: "070-4106-6501",
+
+    company_overview_title: "Business Overview",
+
+    company_overview_p1:
+      "Flat World Co., Ltd. provides services and solutions in the fields of Internet and telecommunications, primarily supporting foreign residents living, working, and studying in Japan.",
+
+    company_overview_p2:
+      "Its main business areas include the provision of high-speed and stable Internet connectivity services, creating communication environments that emphasize convenience and security. In addition, the company delivers flexible and optimized telecommunications and digital solutions by applying advanced communication technologies tailored to diverse customer needs.",
+
+    company_overview_p3:
+      "Furthermore, Flat World Co., Ltd. offers physical SIM cards, eSIMs, WiFi routers, and other telecommunications devices for both individual and corporate customers. The company also plans, develops, and operates telecommunications service management platforms, enabling customers to easily monitor and manage service usage and Internet connectivity.",
+
+    company_overview_p4:
+      "Through these initiatives, Flat World Co., Ltd. aims to build a safe, stable, and accessible telecommunications environment, supporting foreign residents in Japan to live with confidence and peace of mind.",
   page_title: "FLAT WORLD - Comprehensive Connectivity Solutions",
 
   /* ===== NAV ===== */
@@ -272,7 +385,7 @@ pricing_tab_device: "Thiết bị",
   nav_mission: "Mission",
   nav_vision: "Vision",
   nav_values: "Core Values",
-  nav_advantage: "Advantages",
+  nav_advantage: "Our Strengths",
   nav_platform: "Platform",
   nav_package: "Plans",
   nav_partner: "Partners",
@@ -320,7 +433,7 @@ pricing_tab_device: "Thiết bị",
   values_3_desc: "Providing clear and reliable information.",
 
   /* ===== ADVANTAGES ===== */
-  advantage_title: "Advantages",
+  advantage_title: "Our Strengths",
   advantage_1_title: "Stable Connection",
   advantage_1_desc: "Suitable for both daily life and work.",
   advantage_2_title: "Flexible Management",
@@ -345,7 +458,8 @@ pricing_tab_device: "Devices",
 
   /* ===== PARTNERS ===== */
   partner_title: "Key Partners",
-
+ company_read_more: "Read more",
+    company_read_less: "Show less",
   /* ===== HERO END ===== */
   hero_end_title_1: "Global Connection",
   hero_end_title_2: "Unlimited Experience",
@@ -396,8 +510,9 @@ pricing_tab_device: "Devices",
         legal_returns_policy: "FLAT WORLD reserves the right to replace the product or issue a refund according to current policies.",
         legal_h3_contact_info: "📧 Contact Information",
         legal_contact_desc: "For any inquiries, please contact us:",
+         nav_company: "Company",
+         company_value_name_sub: "(Flat World Joint Stock Company)",
         footer_legal_copy: "© 2024 FLAT World Co., Ltd. All rights reserved.",
 }
 
 };
-;
