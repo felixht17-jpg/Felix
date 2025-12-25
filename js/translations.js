@@ -1,7 +1,7 @@
 const translations = {
   ja: {
     page_title: "FLAT WORLD - 総合接続ソリューション",
-nav_company: "会社情報",
+nav_company: "会社",
     /* ===== NAV ===== */
     nav_home: "ホーム",
     nav_about: "会社紹介",
