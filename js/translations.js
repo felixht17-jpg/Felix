@@ -135,8 +135,8 @@ legal_page_title: "FLAT World - 総合接続ソリューション",
     footer_text: "Flat World – インターネット & サービスプラットフォーム",
     company_badge: "Company Profile",
 
-    company_title: "会社情報",
-    company_subtitle: "総合会社概要",
+    company_title: "企業情報",
+    company_subtitle: "会社概要",
 
     company_info_title: "会社情報",
 
@@ -147,14 +147,14 @@ legal_page_title: "FLAT World - 総合接続ソリューション",
     company_value_established: "2025年12月（令和7年）",
 
     company_label_representative: "代表者",
-    company_value_representative: "代表取締役：Niki Nana",
+    company_value_representative: "代表取締役：二木奈々",
 
     company_label_address: "所在地",
     company_value_address:
       "〒157-0071<br>東京都世田谷区千歳台3-11-3<br>小野ビル 6階",
 
     company_label_phone: "電話番号",
-    company_value_phone: "070-4106-6501",
+    company_value_phone: "03-6411-3308",
 
     company_overview_title: "企業概要",
 
@@ -322,7 +322,7 @@ pricing_tab_device: "Thiết bị",
       "〒157-0071<br>Tầng 6, Tòa nhà Ono,<br>3-11-3 Chitosedai, Setagaya-ku, Tokyo",
 
     company_label_phone: "Số điện thoại",
-    company_value_phone: "070-4106-6501",
+    company_value_phone: "03-6411-3308",
  company_value_name_sub: "(Công ty Cổ phần Flat World)",
     company_overview_title: "Tổng quan doanh nghiệp",
 
@@ -361,7 +361,7 @@ pricing_tab_device: "Thiết bị",
       "〒157-0071<br>6th Floor, Ono Building,<br>3-11-3 Chitosedai, Setagaya-ku, Tokyo",
 
     company_label_phone: "Phone Number",
-    company_value_phone: "070-4106-6501",
+    company_value_phone: "03-6411-3308",
 
     company_overview_title: "Business Overview",
 
